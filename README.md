@@ -1,6 +1,6 @@
 # python-challenge
 
-Module 3 Challenge for KU Data Analytics
+## Module 3 Challenge for KU Data Analytics
 
 Author:  Kevin Krause
 
