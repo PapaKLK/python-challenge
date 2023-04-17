@@ -11,32 +11,39 @@ import os
 import csv
 
 #Election data will be read and written to these paths
-#the program main.py is running in folder PyBank and folders Reources 
-#  and analysis are in the PyBank folder
+#the program main.py is running in folder PyPoll. 
+#  Folders Reources and analysis are in the PyPoll folder 
+#  that are used to hold data and reports.
+
 elec_path = os.path.join('Resources', 'election_data.csv')
 elec_output = os.path.join('analysis','election_report.txt')
-
-
 
 # Open the csv file and move beyond the header row to
 # the first row of actual data
 with open(elec_path) as election_file:
-
 	election_reader = csv.reader(election_file, delimiter=',')
 	election_header = next(election_reader)
 
     
-# Initialize variable that will be used tracking totals,
-# averages, and greatest increases and decreases.
+# Initialize variable that will be used tracking totals and
+# define lists that will be used for sorting data and 
+# printing data.
 	total_votes = 0
 	winner_count = 0
+
+	# list to store and sort candiate data.
 	candidate_list = []
+
+	#list to contain information that will be printed to both
+	#the terminal and to an output dataset.
 	print_list = []
 	print_list.append("Election Results")
 	print_list.append("-------------------------")
 
 
-# # Read each row of data after the header
+# Read each row of data after the header and store
+# the candidate name in the List and calculate
+# the total number of votes cast.
 	for row in election_reader:
  		Ballot_ID = row[0]
  		County = row[1]
@@ -47,7 +54,8 @@ with open(elec_path) as election_file:
 print_list.append("Total Votes: " + str(total_votes))
 print_list.append("-------------------------")
  
-
+# sort the list of candidates in order to determine 
+# each candidate and how many votes they got.
 candidate_list.sort()
 save_candidate = candidate_list[0]
 vote_count = 0
