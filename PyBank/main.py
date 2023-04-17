@@ -74,7 +74,8 @@ tot_pl = str(total_PL)
 avg_pl_change = round( ((total_pl_change) / (total_months - 1)  ),2)
 
 # Save the summary report data so that it can be printed and saved to a text file
-
+pl_list.append("Financial Analysis")
+pl_list.append("----------------------------")
 pl_list.append("Total Months:  " + str(total_months))
 pl_list.append("Total:  $" + tot_pl)
 pl_list.append("Average Change:  $" + str(avg_pl_change))
@@ -83,8 +84,6 @@ pl_list.append("Greatest Decrease in Profits: " + save_decrease_month + " ($" + 
 
 
 # Print the summary data to the terminal
-print("Financial Analysis")
-print('----------------------------')
 
 for rptline in pl_list:
 	print(rptline)
