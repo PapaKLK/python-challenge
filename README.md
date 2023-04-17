@@ -9,6 +9,8 @@ Two Python programs were written both named main.py
 1. python-challenge/Pybank 
 2. python-challenge/PyPoll
 
+Both programs utilize os and csv functions to read from a CSV file and write to a text file.  In additon lists are used to makes summary reporting much clear and more effecient.  
+
 The following website was used to obtain syntax for sorting a list and creating a new line when printing.  In additon, just making sure I had the syntax correct for all commands:
-- https://www.pythoncheatsheet.org/cheatsheet/basics
-- 
+- [Python Basics - Python Cheatsheet] (https://www.pythoncheatsheet.org/cheatsheet/basics)
+
