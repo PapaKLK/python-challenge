@@ -2,7 +2,7 @@
 
 ## Module 3 Challenge for KU Data Analytics
 
-Author:  Kevin Krause
+### **Author:  Kevin Krause**
 
 Comments: 2 Python programs were written both named main.py 
           1 under directory python-challenge/Pybank 
