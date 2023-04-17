@@ -4,9 +4,12 @@
 
 ### **Author:  Kevin Krause**
 
-Comments: 2 Python programs were written both named main.py 
-          1 under directory python-challenge/Pybank 
-          The othere under python-challenge/PyPoll.
+### Comments: 
+Two Python programs were written both named main.py 
+1. python-challenge/Pybank 
+2. python-challenge/PyPoll
+
+
           
   
 
