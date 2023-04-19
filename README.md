@@ -9,17 +9,17 @@ Two Python programs were written both named main.py
 1. python-challenge/Pybank 
 2. python-challenge/PyPoll
 
-Files are stored as followed:
-  - python-challenge/PyBank/analysis
-  - python-challenge/PyBank/Resources
-  - main.py
-       
-   *PyPoll*
-      analysis
-      Resources
-      main.py
-      
-   README.md
+Files used for the PyBank Profit/Loss analysis are stored as followed:
+  - python-challenge/PyBank/analysis  (output)
+  - python-challenge/PyBank/Resources (input)
+  - main.py (python program for the budget analysis)
+
+Files used for the PyPoll Election analysis are stored as followed:
+  - python-challenge/PyPoll/analysis  (output)
+  - python-challenge/PyPoll/Resources (input)
+  - main.py (python program for the Poll analysis)
+ 
+  - README.md
 
 Both programs utilize os and csv functions to read from a CSV file and write to a text file.  In additon lists are used to makes summary reporting much clearer and more effecient.  
 
