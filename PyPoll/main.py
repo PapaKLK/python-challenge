@@ -86,7 +86,7 @@ prnt_pct_votes = str(pct_votes)
 print_list.append(save_candidate + ": " + prnt_pct_votes + "% (" + candidate_votes + ")")
 print_list.append("-------------------------")
 print_list.append("Winner:  " + winner_name)
-
+print_list.append("-------------------------")
 
 # # Print the summary data to the terminal
 
