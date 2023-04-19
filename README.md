@@ -11,11 +11,11 @@ Two Python programs were written both named main.py
 
 ## Files are stored as followed:
 ###python-challenge
-   ####PyBank
+   *PyBank*
        
-   ####PyPoll
-   
-   ####README.md
+   *PyPoll*
+ 
+   README.md
 
 Both programs utilize os and csv functions to read from a CSV file and write to a text file.  In additon lists are used to makes summary reporting much clearer and more effecient.  
 
