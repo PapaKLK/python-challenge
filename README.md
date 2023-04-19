@@ -9,8 +9,8 @@ Two Python programs were written both named main.py
 1. python-challenge/Pybank 
 2. python-challenge/PyPoll
 
-## Files are stored as followed:
-##python-challenge
+Files are stored as followed:
+python-challenge
    *PyBank*
       analysis
       Resources
