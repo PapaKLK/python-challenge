@@ -10,11 +10,9 @@ Two Python programs were written both named main.py
 2. python-challenge/PyPoll
 
 Files are stored as followed:
-python-challenge
-   *PyBank*
-      analysis
-      Resources
-      main.py
+  - python-challenge/PyBank/analysis
+  - python-challenge/PyBank/Resources
+  - main.py
        
    *PyPoll*
       analysis
