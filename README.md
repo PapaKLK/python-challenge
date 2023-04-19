@@ -9,12 +9,12 @@ Two Python programs were written both named main.py
 1. python-challenge/Pybank 
 2. python-challenge/PyPoll
 
-==Files used for the PyBank Profit/Loss analysis are stored as followed:==
+- Files used for the PyBank Profit/Loss analysis are stored as followed:
   - python-challenge/PyBank/analysis  (output)
   - python-challenge/PyBank/Resources (input)
   - main.py (python program for the budget analysis)
 
-==Files used for the PyPoll Election analysis are stored as followed:==
+- Files used for the PyPoll Election analysis are stored as followed:
   - python-challenge/PyPoll/analysis  (output)
   - python-challenge/PyPoll/Resources (input)
   - main.py (python program for the Poll analysis)
